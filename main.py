@@ -4,7 +4,7 @@ import pandas as pd
 app = FastAPI()
 
 # Cargar el archivo Parquet en un DataFrame
-df = pd.read_parquet('_src\Data\steam_games.parquet')
+df = pd.read_parquet('_src/Data/steam_games.parquet')
 
 @app.get('/genero/{Year}')
 def genero_por_anio(Year: str): 

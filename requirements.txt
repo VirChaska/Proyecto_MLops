@@ -4,7 +4,7 @@ click==8.1.6
 colorama==0.4.6
 cramjam==2.7.0
 fastapi==0.100.1
-fastparquet==2023.7.0
+fastparquet==0.8.1
 fsspec==2023.6.0
 h11==0.14.0
 idna==3.4

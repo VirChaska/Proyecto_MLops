@@ -6,7 +6,7 @@ contourpy
 cramjam==2.7.0
 cycler==0.11.0
 fastapi==0.100.1
-fastparquet==2023.7.0
+fastparquet
 fonttools==4.42.0
 fsspec==2023.6.0
 h11==0.14.0

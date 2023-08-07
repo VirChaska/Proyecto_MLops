@@ -12,11 +12,11 @@ En el escenario de Steam, una plataforma de videojuegos internacional, la tarea 
 
 ## Propuesta de Trabajo
 
-Mi enfoque para resolver este desafío se divide en varias etapas clave:
+Mi enfoque para resolver este desafío se divide en varias etapas:
 
 ### Transformaciones de Datos
 
-La primera tarea es trabajar en la lectura del dataset con el formato correcto y realizar transformaciones necesarias para preparar los datos con el objetivo de que sean accesibles y puedan ser utilizados de manera efectiva.
+La primera tarea es trabajar en la lectura del dataset con el formato correcto y realizar transformaciones necesarias para preparar los datos con el objetivo de que sean accesibles y que puedan ser utilizados de manera efectiva.
 
 ### Desarrollo de la API
 

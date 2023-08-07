@@ -6,7 +6,7 @@
 <img src="https://user-images.githubusercontent.com/67664604/217914153-1eb00e25-ac08-4dfa-aaf8-53c09038f082.png"  height=300>
 </p>
 
-¡Bienvenido a mi proyecto de Machine Learning Operations (MLOps) sobre la predicción de precios de juegos de Steam! En este proyecto, me he colocado en el rol de un MLOps Engineer y he abordado el desafío de predecir los precios de los juegos en la plataforma de Steam.
+¡Bienvenido a mi proyecto de Machine Learning Operations (MLOps) sobre la predicción de precios de juegos de Steam!
 
 ## Contexto y Rol
 

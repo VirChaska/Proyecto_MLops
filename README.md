@@ -17,6 +17,21 @@ Mi enfoque para resolver este desafío se divide en varias etapas:
 ### Transformaciones de Datos
 
 La primera tarea es trabajar en la lectura del dataset con el formato correcto y realizar transformaciones necesarias para preparar los datos con el objetivo de que sean accesibles y que puedan ser utilizados de manera efectiva.
+Los pasos que realicé en la etapa de transformación fueron los siguientes:
+- En la columana **publisher** cambié los valores *NaN* por "Desconocido".
+- Después de realizar un análisis, las columnas **url** y **reviews_url** no serán relevantes para el desarrollo, así que, las eliminé del df.
+- Al revisar **tags**, siempre se repiten los géneros y para simplificar el modelo, los eliminé.
+- En la columna **app_name** solo hay dos *NaN* y en **tittle** hay 2050 *NaN* y como los registros son los mismos, decidí elimnar **tittle** y cambié los valores faltantes de **app_name** por "Desconocido".
+- Eliminé la columna **id** ya que será suficiente trabajar con la **app_name**.
+- También cambié los valores NaN por "Desconocido" en la columna **developer**.
+- En la columna **price** reemplacé por cero aquellos registros que tenían alguna característica de "free", también reeemplacé por sus valores correspondientes aquellos que estaban en otro formato y eliminé aquellos en el que el precio no era distingingle.
+- En la columna **sentiment** realicé algunos cambios, porque los datos no estaban muy bien categorizados; así que, reemplacé con "sin clasificar" los *NaN* y los que no tenían una clasificación exacta.
+- También realicé algunos ajustes en la columna **metascore**, como poner en un formato correcto los NaN, ya que habían algunos como "NA", en string.
+- La columna **realese_date** lo cambié a tipo *datetime* y creé una nueva columna **year** solo con el año. Finalmente eliminé la columna **realese_date**.
+- Como todas las funciones que piden hacer está en base al año, es mejor eliminar los registros NaN de **year**.
+- Convertí las columnas **genres** y **specs** a cadena.
+**Ver mayor detalle en el archivo [ETL.ipynb](ETL.ipynb)**
+
 
 ### Desarrollo de la API
 

@@ -137,7 +137,7 @@ class GeneroJuego(str, Enum):
     video_production = "video production"
 
 @app.get("/prediccion/")
-def prediccion_precio(metascore: float = Query(None, description="Metascore del juego (ej: 86)"),
+def prediccion(metascore: float = Query(None, description="Metascore del juego (ej: 86)"),
                        year: int = Query(None, description="Año de lanzamiento del juego (ej: 2002)"),
                        genero: GeneroJuego = Query(None, description="Género del juego")):
     # Cargamos el modelo

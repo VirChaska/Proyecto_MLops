@@ -62,4 +62,4 @@ Después de haber completado el análisis exploratorio, es hora de entrenar un m
 ## Enlaces importantes
 
 + [Deployment](https://mlops-deploy-q54n.onrender.com/docs): El proyecto ha sido implementado en una plataforma en línea mediante el uso de Render, asegurando que la aplicación esté disponible en la web para su acceso y uso.
-+ [Video explicativo](): Para que el proyecto esté completo, realicé un video explicando el trabajo realizado.
++ [Video explicativo](https://www.youtube.com/watch?v=iv0K9hHJecg): Para que el proyecto esté completo, realicé un video explicando el trabajo realizado.
